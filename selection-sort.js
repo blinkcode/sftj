@@ -33,15 +33,15 @@ function selectionSort(arr) {
   return newArr;
 }
 console.time();
-console.log(selectionSort([5,4,3,6,9,11,30,22,9,11,22,33,55,15,72,81,98,91,100,43,24,54,23,65,10,1]))
+console.log(selectionSort([5, 4, 3, 6, 9, 11, 30, 22, 9, 11, 22, 33, 55, 15, 72, 81, 98, 91, 100, 43, 24, 54, 23, 65, 10, 1]))
 // 大O为n^2 计算时间在14毫秒左右
 console.timeEnd();
 
 
 console.time();
-var arr = [5,4,3,6,9,11,30,22,9,11,22,33,55,15,72,81,98,91,100,43,24,54,23,65,10,1];
-arr.sort((a,b) => {
-  return a-b;
+var arr = [5, 4, 3, 6, 9, 11, 30, 22, 9, 11, 22, 33, 55, 15, 72, 81, 98, 91, 100, 43, 24, 54, 23, 65, 10, 1];
+arr.sort((a, b) => {
+  return a - b;
 })
 // 自带排序时间为7毫秒左右
 console.timeEnd()
